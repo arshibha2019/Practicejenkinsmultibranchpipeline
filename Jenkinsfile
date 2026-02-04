@@ -11,6 +11,7 @@ pipeline {
         stage('Run Python Script') {
             steps {
                 sh 'python abc.py'
+                sh 'python def.py'
             }
         }
     }
